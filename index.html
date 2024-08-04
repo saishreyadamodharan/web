@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracking System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <header>
+                <h1>Welcome to the Fitness Tracking System</h1>
+                <p>Your personal fitness tracker, tailored to your needs.</p>
+            </header>
+            <section>
+                <h2>User Roles</h2>
+                <div class="roles">
+                    <div class="role">
+                        <h3>Trainer</h3>
+                        <p>Create and manage training programs.</p>
+                        <button onclick="redirectToLogin('trainer')">Login</button>
+                    </div>
+                    <div class="role">
+                        <h3>Member</h3>
+                        <p>Track your fitness progress and set goals.</p>
+                        <button onclick="redirectToLogin('member')">Login</button>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <p>&copy; 2024 Fitness Tracking System. All rights reserved.</p>
+                <a href="team.html" class="button">Meet the Team</a>
+            </footer>
+        </div>
+    </div>
+    <script>
+        function redirectToLogin(role) {
+            window.location.href = `login.html?role=${role}`;
+        }
+    </script>
+</body>
+</html>

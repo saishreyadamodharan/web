@@ -1,0 +1,110 @@
+/* Trainer Page Styles */
+
+/* Apply a background color and set a background image */
+body {
+    background-color: #fce4ec; /* Light pink background for the trainer page */
+    background-image: url('background.jpg'); /* Optional background image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the content on the page */
+.content {
+    width: 80%;
+    max-width: 900px;
+    margin: 2rem auto;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #d81b60; /* Pink color for headings */
+}
+
+header p {
+    color: #555; /* Dark gray for text */
+    font-size: 1.1rem;
+}
+
+/* Style forms and buttons */
+form {
+    margin-bottom: 1.5rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333; /* Dark gray for labels */
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+form button {
+    background-color: #d81b60; /* Pink color for buttons */
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #c2185b; /* Darker pink on hover */
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer .button {
+    background-color: #d81b60; /* Pink color for buttons */
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+footer .button:hover {
+    background-color: #c2185b; /* Darker pink on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .content {
+        width: 90%;
+    }
+
+    form input,
+    form textarea {
+        font-size: 0.9rem;
+    }
+
+    form button {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,121 @@
+/* Team Page Styles */
+
+/* Apply a background color and set a background image */
+body {
+    background-color: #e0f7fa; /* Light cyan background */
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the content on the page */
+.content {
+    width: 80%;
+    max-width: 900px;
+    margin: 2rem auto;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #00796b; /* Teal color for headings */
+}
+
+header p {
+    color: #555; /* Dark gray for text */
+    font-size: 1.1rem;
+}
+
+/* Style the team members section */
+section {
+    margin-top: 2rem;
+}
+
+section h2 {
+    color: #00796b; /* Teal color for section headings */
+    margin-bottom: 1.5rem;
+}
+
+/* Style individual team member entries */
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem; /* Space between team members */
+    border: 1px solid #00796b; /* Teal border */
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff; /* White background for team member block */
+    padding: 1rem; /* Padding inside the team member block */
+}
+
+.team-member img {
+    width: 120px; /* Fixed width for images */
+    height: 120px; /* Fixed height for images */
+    object-fit: cover; /* Crop the image to fit the container */
+    border-radius: 8px; /* Round the corners of the image */
+    margin-right: 1.5rem; /* Space between image and text */
+}
+
+.member-info {
+    flex: 1; /* Take up remaining space */
+}
+
+.member-info h3 {
+    color: #00796b; /* Teal color for member names */
+    margin-top: 0;
+}
+
+.member-info p {
+    color: #555; /* Dark gray for member descriptions */
+    margin-bottom: 0;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer .button {
+    background-color: #00796b; /* Teal color for buttons */
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+footer .button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .content {
+        width: 90%;
+    }
+
+    .team-member {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .team-member img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 1rem; /* Space between image and text on small screens */
+    }
+}

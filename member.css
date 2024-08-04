@@ -1,0 +1,106 @@
+/* Member Page Styles */
+
+/* Apply a background color and set a background image */
+body {
+    background-color: #f0f4c3; /* Light yellow-green background */
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the content on the page */
+.content {
+    width: 80%;
+    max-width: 900px;
+    margin: 2rem auto;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+h1 {
+    color: #388e3c; /* Darker green color for headings */
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Style profile information */
+.profile-info {
+    margin-bottom: 2rem;
+}
+
+.profile-info h2 {
+    color: #388e3c; /* Darker green color for profile info headings */
+    margin-bottom: 0.5rem;
+}
+
+.profile-info p {
+    font-size: 1rem;
+    color: #555; /* Dark gray for text */
+}
+
+/* Style buttons */
+button {
+    background-color: #388e3c; /* Dark green color for buttons */
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1b5e20; /* Even darker green on hover */
+}
+
+/* Style links */
+a {
+    color: #388e3c; /* Dark green color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the activity summary */
+.activity-summary {
+    margin-top: 2rem;
+}
+
+.activity-summary h2 {
+    color: #388e3c; /* Darker green color for activity summary headings */
+    margin-bottom: 1rem;
+}
+
+.activity-summary ul {
+    list-style: none;
+    padding: 0;
+}
+
+.activity-summary li {
+    background-color: #e8f5e9; /* Light green background for list items */
+    border: 1px solid #c8e6c9; /* Light green border */
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .content {
+        width: 90%;
+    }
+
+    button {
+        width: 100%;
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+}

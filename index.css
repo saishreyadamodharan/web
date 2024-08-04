@@ -1,0 +1,89 @@
+/* Index Page Styles */
+
+/* Apply a background color and set a background image */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content on the page */
+.content {
+    width: 80%;
+    max-width: 900px;
+    margin: 2rem auto;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #00796b; /* Teal color for headings */
+}
+
+header p {
+    color: #555; /* Dark gray for text */
+    font-size: 1.1rem;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #00796b; /* Teal color for links */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style the section */
+section {
+    margin-top: 2rem;
+}
+
+section h2 {
+    color: #00796b; /* Teal color for section headings */
+}
+
+section p {
+    color: #555; /* Dark gray for text */
+}
+
+section ul {
+    list-style: disc;
+    margin-left: 2rem;
+}
+
+section ul li {
+    color: #555; /* Dark gray for list items */
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #555; /* Dark gray for text */
+}
